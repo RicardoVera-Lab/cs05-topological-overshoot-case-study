@@ -1,50 +1,102 @@
-# PORTFOLIO CASE STUDY — CS05
+# CS05 — Portfolio Case Study
 
 ## Investigating a Post-Drive Topological Polarization Overshoot
 
-### Subtitle
-An AI-assisted scientific research case in prior-art attack, hypothesis competition, preregistration, reproducible analytics and evidence-gated stopping.
+**Independent AI-assisted research case in hypothesis competition, preregistration, reproducible analytics, and evidence-gated stopping.**
 
-## Challenge
-A published active-liquid-crystal experiment reported a short-lived increase in topological polarization immediately after activity was switched off, before ordinary discharge.
+> **Final outcome:** Unresolved due to unavailable external raw data. **No mechanism claim made.**
 
-The source work described the phenomenon but did not fully resolve its underlying mechanism.
+## 1. The challenge
 
-## Objective
-Discriminate among:
+A published active-liquid-crystal experiment reported a short-lived increase in topological polarization immediately after acoustic activity was switched off, before ordinary discharge.
 
-1. ordinary passive defect relaxation;
-2. a transient contribution from stored elastic/director relaxation;
-3. measurement/accounting artifacts.
+The professional problem was not simply to propose an explanation. It was to determine what evidence would actually discriminate among plausible explanations without retrofitting a story to the observed result.
 
-## Role
-Directed an AI-assisted research workflow that discovered and narrowed the frontier question, attacked prior art, separated broad absorbed claims from the remaining differential, formalized competing hypotheses, preregistered a discriminating experiment, implemented the analysis before real-data access, froze the software and gates, validated the pipeline with adversarial synthetic cases, and stopped the investigation when the required external evidence could not be obtained.
+## 2. Research objective
 
-## Technical work
-Implemented a Python accounting pipeline for:
+The investigation retained three competing explanations:
 
-`ΔP = motion + boundary + reaction + unresolved`.
+- standard passive post-drive defect relaxation;
+- an additional transient contribution from stored elastic/director relaxation;
+- measurement or trajectory-accounting effects.
 
-The pipeline separately accounts for +1/2 and -1/2 defects.
+The first objective was deliberately narrower than mechanism discovery: reconstruct the polarization change from charge-resolved defect trajectories and determine which physical/accounting contribution actually carries the overshoot.
 
-Synthetic tests verified that it accepts a genuine motion-carried overshoot, identifies boundary-driven apparent overshoot and blocks unexplained-track artifacts.
+## 3. Work performed
 
-## Outcome
-**Unresolved due to unavailable external raw data. No mechanism claim made.**
+I directed the research process from a published anomaly to a frozen, reproducible experimental test. The work included:
 
-## Why the case matters
-The project demonstrates a research process that does not force a discovery. It reached the evidentiary boundary, preserved the preregistration and software freeze, and stopped rather than replacing missing evidence with post-hoc explanation.
+- prior-art review and claim narrowing;
+- explicit hypothesis competition;
+- preregistration of `CS05-EXP001`;
+- implementation of the analysis before access to real external trajectories;
+- SHA-256 freeze of the core analysis implementation;
+- adversarial synthetic validation;
+- external-data access assessment;
+- formal stop when the evidence requirement could not be met.
+
+The project intentionally did **not** weaken the endpoint, move the analysis window, invent missing data, or replace the missing experiment with a post-hoc simulation under the same experiment identity.
+
+## 4. Technical asset
+
+A Python accounting pipeline was implemented around the decomposition:
+
+`ΔP = ΔP_motion + ΔP_boundary + ΔP_birth/death + ΔP_unresolved + ε_numeric`
+
+with `+1/2` and `-1/2` topological-defect contributions reported separately.
+
+The public validation suite tested three adversarial scenarios:
+
+1. a genuine motion-carried overshoot;
+2. a boundary-driven apparent overshoot;
+3. an apparent overshoot caused by an unresolved new track.
+
+The frozen software-validation assertions passed.
+
+This validates the analysis logic only. It does not constitute physical evidence for any of the three mechanisms.
+
+## 5. Outcome
+
+The required charge-resolved external trajectories were not obtained at the evidentiary quality required by the preregistration.
+
+The real-data experiment therefore was not executed and the mechanism remained unresolved.
+
+**No physical-discovery claim and no novelty claim were made.**
+
+## 6. Why this case matters professionally
+
+The value of this case is not a forced discovery. It demonstrates the ability to:
+
+- structure an ambiguous technical problem;
+- reduce broad claims to a testable differential;
+- distinguish competing explanations;
+- design a reproducible data-analysis workflow;
+- freeze criteria before seeing the desired data;
+- validate software against adversarial cases;
+- preserve negative and blocked results;
+- stop when evidence is insufficient instead of manufacturing certainty.
+
+These capabilities transfer directly to data analysis, decision intelligence, research analysis, technical due diligence, experimentation, model evaluation, and AI-assisted investigation.
+
+## 7. Public evidence
+
+- Repository: `https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study`
+- Public release: `v1.0.0`
+- Technical report: available as PDF/DOCX in the GitHub release
+- Reproducibility: preregistration, frozen code, synthetic tests, hashes, and claim ledger are public
+
+## 8. Proprietary boundary
+
+This case was conducted with proprietary internal research systems named **ALETHEIA, OSINTEGA, FORGE, INVENTOR, and COMPUTE**.
+
+Only the names are disclosed publicly. Their prompts, functional assignments, sequencing, routing logic, decision authorities, thresholds, handoff formats, and governance architecture are intentionally excluded from this portfolio case.
 
 ## Skills demonstrated
-- scientific research;
-- prior-art intelligence;
-- data-analysis design;
-- Python;
-- falsifiable hypothesis construction;
-- preregistration;
-- reproducibility;
-- software validation;
-- AI-assisted research direction;
-- uncertainty management;
-- negative-result preservation;
-- evidence-based stopping.
+
+**Data & technical:** Python, analytical decomposition, reproducibility, validation, structured data requirements, integrity hashing.
+
+**Research:** prior-art review, hypothesis construction, falsification, preregistration, evidence auditing, technical writing.
+
+**Decision quality:** uncertainty management, scope control, negative-result preservation, evidence-based stopping.
+
+**AI-assisted work:** human-directed research orchestration without delegating claim authority to the AI systems involved.
