@@ -1,0 +1,35 @@
+{
+  "tracks_csv_required_columns": [
+    "realization_id",
+    "t",
+    "track_id",
+    "charge",
+    "x",
+    "y",
+    "start_event",
+    "end_event"
+  ],
+  "allowed_charge_values": [
+    -0.5,
+    0.5
+  ],
+  "allowed_start_event": [
+    "",
+    "none",
+    "boundary_in",
+    "birth",
+    "unknown"
+  ],
+  "allowed_end_event": [
+    "",
+    "none",
+    "boundary_out",
+    "death",
+    "unknown"
+  ],
+  "notes": {
+    "start_event": "Used only on the first row of a track; leave none otherwise.",
+    "end_event": "Used only on the final row of a track; leave none otherwise.",
+    "no_inference": "Unknown events remain unresolved; the pipeline does not force charge conservation."
+  }
+}

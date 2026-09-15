@@ -1,0 +1,15 @@
+claim_id,claim,final_status,note
+C001,Published system exhibits a short-lived post-switch-off polarization overshoot,SUPPORTED BY SOURCE PAPER / PRIOR REVIEW,Not claimed as an original CS05 discovery
+C002,Negative defects were reported to move rapidly during the anomalous interval while positives were comparatively stationary,REPORTED BY SOURCE AUTHORS,Requires raw-data accounting for independent verification
+C003,Standard passive defect dynamics quantitatively explain the overshoot,UNRESOLVED,Required real-data replay was not reached
+C004,Stored elastic/director release quantitatively explains the overshoot,HYPOTHESIS ONLY,"Plausible rival, not demonstrated"
+C005,The overshoot is a measurement/accounting artifact,UNRESOLVED,EXP001 was designed to attack this
+C006,CS05 discovered a new topological-memory phenomenon,REJECTED / NOT CLAIMED,Broad framing not authorized
+C007,CS05 discovered new topological-capacitor physics,REJECTED / NOT CLAIMED,Charging/discharge phenomenon already published
+C008,CS05-EXP001 was preregistered before real-data analysis,YES,Frozen protocol present
+C009,CS05 analysis software was frozen before real-data exposure,YES,SHA-256 freeze recorded
+C010,Synthetic software validation passed,YES,Adversarial synthetic tests passed
+C011,CS05-EXP001 was executed on real experimental trajectories,NO,External-data block
+C012,The physical mechanism was resolved,NO,Final mechanism status unresolved
+C013,A physical discovery claim is authorized,NO,None
+C014,The investigation stopped because required evidence was unavailable,YES,Formal closure reason

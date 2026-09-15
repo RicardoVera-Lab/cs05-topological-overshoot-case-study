@@ -1,0 +1,75 @@
+{
+  "summary": {
+    "overall_status": "CASE_SPECIFIC_KINEMATIC_PASS",
+    "n_realizations": 3,
+    "n_kinematic_pass": 1,
+    "dominant_carriers_in_passes": [
+      "negative"
+    ]
+  },
+  "realizations": [
+    {
+      "realization_id": "boundary",
+      "t_off": 68.0,
+      "reference_time_used": 68.0,
+      "p_reference": -0.5,
+      "overshoot_window": [70.0,80.0],
+      "t_peak": 72.0,
+      "overshoot_projected_peak": 2.0,
+      "p_sigma": 0.01,
+      "signal_status": "PASS",
+      "signal_pass_robust": true,
+      "numeric_closure_pass": true,
+      "unresolved_fraction_of_peak": 0.0,
+      "unresolved_pass": true,
+      "dominant_motion_carrier": "none",
+      "projected_motion_positive": -0.0,
+      "projected_motion_negative": -0.0,
+      "totals_raw": {"motion_pos":0.0,"motion_neg":0.0,"boundary_pos":0.0,"boundary_neg":-2.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":0.0,"observed_delta":-2.0,"accounted_delta":-2.0,"numeric_residual":0.0},
+      "step_accounting": [{"t0":68.0,"t1":70.0,"motion_pos":0.0,"motion_neg":0.0,"boundary_pos":0.0,"boundary_neg":0.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":0.0,"observed_delta":0.0,"accounted_delta":0.0,"numeric_residual":0.0},{"t0":70.0,"t1":72.0,"motion_pos":0.0,"motion_neg":0.0,"boundary_pos":0.0,"boundary_neg":-2.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":0.0,"observed_delta":-2.0,"accounted_delta":-2.0,"numeric_residual":0.0}],
+      "kinematic_gate_pass": false
+    },
+    {
+      "realization_id": "motion",
+      "t_off": 68.0,
+      "reference_time_used": 68.0,
+      "p_reference": -2.0,
+      "overshoot_window": [70.0,80.0],
+      "t_peak": 75.0,
+      "overshoot_projected_peak": 1.4000000000000004,
+      "p_sigma": 0.01,
+      "signal_status": "PASS",
+      "signal_pass_robust": true,
+      "numeric_closure_pass": true,
+      "unresolved_fraction_of_peak": 0.0,
+      "unresolved_pass": true,
+      "dominant_motion_carrier": "negative",
+      "projected_motion_positive": -0.0,
+      "projected_motion_negative": 1.4000000000000001,
+      "totals_raw": {"motion_pos":0.0,"motion_neg":-1.4000000000000001,"boundary_pos":0.0,"boundary_neg":0.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":0.0,"observed_delta":-1.4000000000000004,"accounted_delta":-1.4000000000000001,"numeric_residual":-2.220446049250313e-16},
+      "step_accounting": [{"t0":68.0,"t1":70.0,"motion_pos":0.0,"motion_neg":-0.20000000000000018,"boundary_pos":0.0,"boundary_neg":0.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":0.0,"observed_delta":-0.20000000000000018,"accounted_delta":-0.20000000000000018,"numeric_residual":0.0},{"t0":70.0,"t1":72.0,"motion_pos":0.0,"motion_neg":-0.5999999999999996,"boundary_pos":0.0,"boundary_neg":0.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":0.0,"observed_delta":-0.5999999999999996,"accounted_delta":-0.5999999999999996,"numeric_residual":0.0},{"t0":72.0,"t1":75.0,"motion_pos":0.0,"motion_neg":-0.6000000000000003,"boundary_pos":0.0,"boundary_neg":0.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":0.0,"observed_delta":-0.6000000000000005,"accounted_delta":-0.6000000000000003,"numeric_residual":-2.220446049250313e-16}],
+      "kinematic_gate_pass": true
+    },
+    {
+      "realization_id": "unknown",
+      "t_off": 68.0,
+      "reference_time_used": 68.0,
+      "p_reference": -0.5,
+      "overshoot_window": [70.0,80.0],
+      "t_peak": 72.0,
+      "overshoot_projected_peak": 2.0,
+      "p_sigma": 0.01,
+      "signal_status": "PASS",
+      "signal_pass_robust": true,
+      "numeric_closure_pass": true,
+      "unresolved_fraction_of_peak": 1.0,
+      "unresolved_pass": false,
+      "dominant_motion_carrier": "none",
+      "projected_motion_positive": -0.0,
+      "projected_motion_negative": -0.0,
+      "totals_raw": {"motion_pos":0.0,"motion_neg":0.0,"boundary_pos":0.0,"boundary_neg":0.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":-2.0,"observed_delta":-2.0,"accounted_delta":-2.0,"numeric_residual":0.0},
+      "step_accounting": [{"t0":68.0,"t1":70.0,"motion_pos":0.0,"motion_neg":0.0,"boundary_pos":0.0,"boundary_neg":0.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":0.0,"observed_delta":0.0,"accounted_delta":0.0,"numeric_residual":0.0},{"t0":70.0,"t1":72.0,"motion_pos":0.0,"motion_neg":0.0,"boundary_pos":0.0,"boundary_neg":0.0,"reaction_pos":0.0,"reaction_neg":0.0,"unresolved_pos":0.0,"unresolved_neg":-2.0,"observed_delta":-2.0,"accounted_delta":-2.0,"numeric_residual":0.0}],
+      "kinematic_gate_pass": false
+    }
+  ]
+}

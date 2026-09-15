@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or discuss this research case study, please cite this repository release."
+title: "CS05 — Investigating a Post-Drive Topological Polarization Overshoot"
+type: software
+authors:
+  - family-names: Vera
+    given-names: Ricardo
+version: 1.0.0
+date-released: 2026-09-15
+abstract: >-
+  An independent AI-assisted scientific research case study in frontier discovery,
+  prior-art attack, hypothesis competition, preregistration, frozen analysis software,
+  synthetic adversarial validation, and evidence-gated stopping. The physical mechanism
+  remained unresolved because the required external raw trajectory data were not obtained.
+keywords:
+  - AI-assisted research
+  - active matter
+  - topological defects
+  - preregistration
+  - reproducibility
+  - scientific discovery
+  - evidence-gated research

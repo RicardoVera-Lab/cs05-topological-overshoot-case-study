@@ -1,0 +1,16 @@
+{
+  "normalization_Z": 1.0,
+  "overshoot_window_start_s_after_off": 2.0,
+  "overshoot_window_end_s_after_off": 12.0,
+  "reference_time_tolerance_s": 0.25,
+  "numeric_abs_tolerance": 1e-08,
+  "numeric_rel_tolerance": 1e-06,
+  "max_unresolved_fraction_of_peak": 0.05,
+  "dominant_motion_fraction_of_peak": 0.5,
+  "uncertainty_sigma_multiplier": 2.0,
+  "realizations": {
+    "motion": {"t_off": 68.0, "p_sigma": 0.01},
+    "boundary": {"t_off": 68.0, "p_sigma": 0.01},
+    "unknown": {"t_off": 68.0, "p_sigma": 0.01}
+  }
+}

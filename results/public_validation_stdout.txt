@@ -1,0 +1,9 @@
+ALL_SYNTHETIC_TESTS_PASS
+{
+  "overall_status": "CASE_SPECIFIC_KINEMATIC_PASS",
+  "n_realizations": 3,
+  "n_kinematic_pass": 1,
+  "dominant_carriers_in_passes": [
+    "negative"
+  ]
+}
