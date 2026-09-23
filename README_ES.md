@@ -1,5 +1,7 @@
 # CS05 — Investigación de un overshoot de polarización topológica post-drive
 
+**CIEC® LAB — Portafolio Público de Evidencia · Caso CS05**
+
 **Caso público de investigación científica asistida por IA con ataque de prior art, hipótesis rivales, preregistro, analítica reproducible y detención gobernada por evidencia.**
 
 > **Resultado final:** no resuelto por falta de acceso a los datos crudos externos requeridos. **No se afirma un nuevo mecanismo físico.**
@@ -33,8 +35,8 @@
 
 El `README.md` en inglés es la portada principal del repositorio internacional.
 
-## Sistema de investigación propietario
+## Arquitectura de investigación de CIEC® LAB
 
-El proyecto utilizó sistemas internos denominados **ALETHEIA, OSINTEGA, FORGE, INVENTOR y COMPUTE**.
+El proyecto fue ejecutado mediante la arquitectura propietaria de investigación de **CIEC® LAB**.
 
-Públicamente se revelan únicamente esos nombres. Los prompts, especificaciones operativas, asignaciones funcionales, secuencias, lógica de enrutamiento, autoridades de decisión, formatos de handoff, umbrales internos y arquitectura de gobernanza permanecen deliberadamente fuera de este repositorio.
+El repositorio público expone la evidencia necesaria para auditar el caso — pregunta, hipótesis rivales, preregistro, código, validación, limitaciones, fronteras de afirmación, hashes y estado final — mientras los prompts internos, la orquestación, los gates de decisión, el enrutamiento, los handoffs, los umbrales y la gobernanza permanecen privados.
