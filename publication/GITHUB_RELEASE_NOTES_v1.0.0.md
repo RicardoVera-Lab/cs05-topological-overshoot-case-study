@@ -1,5 +1,7 @@
 # CS05 Technical Research Report — v1.0.0
 
+**CIEC® LAB — Public Evidence Portfolio**
+
 This release freezes the first public technical-report edition of **CS05 — Investigating a Post-Drive Topological Polarization Overshoot**.
 
 ## Final scientific outcome
@@ -40,7 +42,7 @@ The `v1.0.0` tag is the authoritative public repository state for this release.
 
 ## Proprietary boundary
 
-The names **ALETHEIA, OSINTEGA, FORGE, INVENTOR, and COMPUTE** may appear in public material, but their private prompts, functional assignments, sequencing, routing logic, thresholds, handoff formats, decision authorities, and internal governance remain undisclosed.
+This case was executed through the proprietary research architecture of **CIEC® LAB**. Internal prompts, functional assignments, sequencing, routing logic, thresholds, handoff formats, decision authorities, and governance remain private.
 
 ## Review status
 
