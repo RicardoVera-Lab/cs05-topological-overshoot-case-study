@@ -1,5 +1,7 @@
 # CS05 — Portfolio Case Study
 
+**CIEC® LAB — Public Evidence Portfolio**
+
 ## Investigating a Post-Drive Topological Polarization Overshoot
 
 **Independent AI-assisted research case in hypothesis competition, preregistration, reproducible analytics, and evidence-gated stopping.**
@@ -87,9 +89,9 @@ These capabilities transfer directly to data analysis, decision intelligence, re
 
 ## 8. Proprietary boundary
 
-This case was conducted with proprietary internal research systems named **ALETHEIA, OSINTEGA, FORGE, INVENTOR, and COMPUTE**.
+This case was conducted through the proprietary research architecture of **CIEC® LAB**.
 
-Only the names are disclosed publicly. Their prompts, functional assignments, sequencing, routing logic, decision authorities, thresholds, handoff formats, and governance architecture are intentionally excluded from this portfolio case.
+The public case discloses evidence, methods, code, validation, limitations, and claim boundaries. Internal prompts, orchestration, role assignments, routing logic, decision gates, thresholds, handoff formats, and governance remain private.
 
 ## Skills demonstrated
 
