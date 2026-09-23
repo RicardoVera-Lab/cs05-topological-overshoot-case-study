@@ -14,7 +14,7 @@ AI systems contributed to:
 
 Human research direction retained responsibility for scientific scope, interpretation, evidentiary standards, and the final decision not to claim a mechanism when the required evidence was unavailable.
 
-The project used proprietary internal research systems named **ALETHEIA, OSINTEGA, FORGE, INVENTOR, and COMPUTE**. Only these names are disclosed. Their role definitions, prompts, routing, handoffs, decision logic, governance rules, and operating specifications are intentionally withheld.
+The project was organized through the proprietary research architecture of **CIEC® LAB**. Internal role definitions, prompts, routing, handoffs, decision logic, governance rules, operating specifications, thresholds, and orchestration remain intentionally private.
 
 This repository intentionally preserves the distinction between:
 
