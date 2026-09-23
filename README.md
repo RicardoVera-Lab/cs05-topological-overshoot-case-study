@@ -1,5 +1,7 @@
 # CS05 — Investigating a Post-Drive Topological Polarization Overshoot
 
+**CIEC® LAB — Public Evidence Portfolio · Case CS05**
+
 **An AI-assisted scientific research case study in prior-art analysis, hypothesis competition, preregistration, reproducible analytics, and evidence-gated stopping.**
 
 > **Final outcome:** Unresolved due to unavailable external raw data. **No mechanism claim made.**
@@ -140,13 +142,11 @@ The project intentionally did **not** replace missing evidence with:
 
 The investigation therefore demonstrates an evidence-gated workflow that can stop without manufacturing a discovery.
 
-## Proprietary research system
+## CIEC® LAB research architecture
 
-This case was conducted with proprietary internal research systems named **ALETHEIA, OSINTEGA, FORGE, INVENTOR, and COMPUTE**.
+This case was conducted through the proprietary research architecture of **CIEC® LAB**.
 
-Only the names are disclosed publicly. Their prompts, operating specifications, functional assignments, sequencing, routing logic, decision authorities, handoff formats, internal thresholds, and governance architecture are proprietary and intentionally excluded from this repository.
-
-See [`docs/proprietary_research_system_notice.md`](docs/proprietary_research_system_notice.md).
+The public repository exposes the evidence needed to audit the case — research question, competing hypotheses, preregistration, analysis code, validation, limitations, claim boundaries, hashes, and final status — while internal prompts, orchestration logic, decision gates, routing rules, handoff formats, thresholds, and governance remain private.
 
 ## Repository map
 
