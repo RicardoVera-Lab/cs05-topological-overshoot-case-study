@@ -1,5 +1,7 @@
 # CS05 — One-Page Portfolio Summary
 
+**CIEC® LAB — Public Evidence Portfolio**
+
 ## Investigating a Post-Drive Topological Polarization Overshoot
 
 **Independent AI-assisted research case in reproducible analysis and evidence-gated decision making.**
@@ -53,4 +55,4 @@ Technical report, code, preregistration, synthetic tests, hashes, claim ledger, 
 
 ### Proprietary boundary
 
-The internal research systems **ALETHEIA, OSINTEGA, FORGE, INVENTOR, and COMPUTE** are proprietary. Their functional architecture, prompts, routing, thresholds, handoffs, and governance are not disclosed.
+This case was executed through the proprietary research architecture of **CIEC® LAB**. Internal prompts, orchestration, routing, thresholds, handoffs, decision gates, and governance are not disclosed.
