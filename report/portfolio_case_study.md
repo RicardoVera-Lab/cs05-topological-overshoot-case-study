@@ -1,104 +1,62 @@
 # CS05 — Portfolio Case Study
 
-**CIEC® LAB — Public Evidence Portfolio**
+## CIEC® LAB: preregistered mechanism discrimination under data-access constraints
 
-## Investigating a Post-Drive Topological Polarization Overshoot
+CS05 began with a published physical anomaly and a tempting research opportunity: explain why topological polarization briefly increases after acoustic activity is switched off.
 
-**Independent AI-assisted research case in hypothesis competition, preregistration, reproducible analytics, and evidence-gated stopping.**
+The project was deliberately structured so that an attractive explanation could not become a mechanism claim merely because it sounded plausible.
 
-> **Final outcome:** Unresolved due to unavailable external raw data. **No mechanism claim made.**
+### What was built
 
-## 1. The challenge
+CIEC LAB reduced the problem to three rival explanations, froze a discriminating experiment before real-data access, implemented the analysis in Python, hashed the core implementation, and validated the software against adversarial synthetic cases.
 
-A published active-liquid-crystal experiment reported a short-lived increase in topological polarization immediately after acoustic activity was switched off, before ordinary discharge.
-
-The professional problem was not simply to propose an explanation. It was to determine what evidence would actually discriminate among plausible explanations without retrofitting a story to the observed result.
-
-## 2. Research objective
-
-The investigation retained three competing explanations:
-
-- standard passive post-drive defect relaxation;
-- an additional transient contribution from stored elastic/director relaxation;
-- measurement or trajectory-accounting effects.
-
-The first objective was deliberately narrower than mechanism discovery: reconstruct the polarization change from charge-resolved defect trajectories and determine which physical/accounting contribution actually carries the overshoot.
-
-## 3. Work performed
-
-I directed the research process from a published anomaly to a frozen, reproducible experimental test. The work included:
-
-- prior-art review and claim narrowing;
-- explicit hypothesis competition;
-- preregistration of `CS05-EXP001`;
-- implementation of the analysis before access to real external trajectories;
-- SHA-256 freeze of the core analysis implementation;
-- adversarial synthetic validation;
-- external-data access assessment;
-- formal stop when the evidence requirement could not be met.
-
-The project intentionally did **not** weaken the endpoint, move the analysis window, invent missing data, or replace the missing experiment with a post-hoc simulation under the same experiment identity.
-
-## 4. Technical asset
-
-A Python accounting pipeline was implemented around the decomposition:
+The public accounting model was:
 
 `ΔP = ΔP_motion + ΔP_boundary + ΔP_birth/death + ΔP_unresolved + ε_numeric`
 
-with `+1/2` and `-1/2` topological-defect contributions reported separately.
+with positive and negative topological-defect contributions tracked separately.
 
-The public validation suite tested three adversarial scenarios:
+### What passed
 
-1. a genuine motion-carried overshoot;
-2. a boundary-driven apparent overshoot;
-3. an apparent overshoot caused by an unresolved new track.
+Three adversarial synthetic scenarios were executed:
+- genuine motion-carried overshoot;
+- boundary-driven apparent overshoot;
+- unresolved-track artifact.
 
-The frozen software-validation assertions passed.
+**3 / 3 passed.**
 
-This validates the analysis logic only. It does not constitute physical evidence for any of the three mechanisms.
+That proves the public accounting logic behaves correctly on known artificial cases.
 
-## 5. Outcome
+It does not prove a physical mechanism.
 
-The required charge-resolved external trajectories were not obtained at the evidentiary quality required by the preregistration.
+### What stopped the investigation
 
-The real-data experiment therefore was not executed and the mechanism remained unresolved.
+The required charge-resolved external trajectory data were not obtained.
 
-**No physical-discovery claim and no novelty claim were made.**
+Instead of weakening the experiment, the project closed.
 
-## 6. Why this case matters professionally
+No figure-only substitute was promoted to raw evidence.
+No post-hoc simulation was allowed to masquerade as the preregistered test.
+No mechanism was promoted by elimination alone.
 
-The value of this case is not a forced discovery. It demonstrates the ability to:
+### Why this matters professionally
 
-- structure an ambiguous technical problem;
-- reduce broad claims to a testable differential;
-- distinguish competing explanations;
-- design a reproducible data-analysis workflow;
-- freeze criteria before seeing the desired data;
-- validate software against adversarial cases;
-- preserve negative and blocked results;
-- stop when evidence is insufficient instead of manufacturing certainty.
+For R&D and technical due diligence, this is a valuable capability.
 
-These capabilities transfer directly to data analysis, decision intelligence, research analysis, technical due diligence, experimentation, model evaluation, and AI-assisted investigation.
+CIEC LAB demonstrated that it can:
+- separate competing explanations;
+- freeze decision criteria before desired data arrive;
+- distinguish validation of software from validation of reality;
+- detect when the available evidence is the wrong evidence type;
+- preserve reproducibility;
+- stop before uncertainty becomes overclaiming.
 
-## 7. Public evidence
+### Commercial signal
 
-- Repository: `https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study`
-- Public release: `v1.0.0`
-- Technical report: available as PDF/DOCX in the GitHub release
-- Reproducibility: preregistration, frozen code, synthetic tests, hashes, and claim ledger are public
+> **CIEC LAB is designed to protect decisions from technically sophisticated false certainty.**
 
-## 8. Proprietary boundary
+That capability is transferable to AI, analytics, deep-tech, experimental R&D, model evaluation and scientific due diligence.
 
-This case was conducted through the proprietary research architecture of **CIEC® LAB**.
+## Public evidence boundary
 
-The public case discloses evidence, methods, code, validation, limitations, and claim boundaries. Internal prompts, orchestration, role assignments, routing logic, decision gates, thresholds, handoff formats, and governance remain private.
-
-## Skills demonstrated
-
-**Data & technical:** Python, analytical decomposition, reproducibility, validation, structured data requirements, integrity hashing.
-
-**Research:** prior-art review, hypothesis construction, falsification, preregistration, evidence auditing, technical writing.
-
-**Decision quality:** uncertainty management, scope control, negative-result preservation, evidence-based stopping.
-
-**AI-assisted work:** human-directed research orchestration without delegating claim authority to the AI systems involved.
+This portfolio case exposes the evidence required to audit the public result while keeping CIEC LAB operating methods proprietary.
