@@ -1,56 +1,84 @@
-# CS05 — Investigating a Post-Drive Topological Polarization Overshoot
+# CS05 — Post-Drive Topological Polarization Overshoot
 
-**CIEC® LAB — Public Evidence Portfolio · Case CS05**
+> **CIEC® LAB CASE STUDY — preregistered mechanism discrimination under external-data constraints.**
 
-**An AI-assisted scientific research case study in prior-art analysis, hypothesis competition, preregistration, reproducible analytics, and evidence-gated stopping.**
+## What this case proves about CIEC LAB
 
-> **Final outcome:** Unresolved due to unavailable external raw data. **No mechanism claim made.**
+CS05 demonstrates that CIEC LAB can take a published physical anomaly, turn it into competing explanations, define a discriminating experiment **before seeing the desired raw data**, freeze the analysis, validate the software against adversarial synthetic cases, and stop when the evidence requirement cannot be met without changing the rules.
 
-## Why this repository exists
+That is the capability being demonstrated here:
 
-This repository documents a complete research workflow around a published anomaly in active liquid crystals: after acoustic activity is switched off, the reported magnitude of topological polarization briefly increases before the system proceeds into ordinary discharge.
+> **not “AI that invents a mechanism,” but a research system that forces mechanism claims to survive preregistration, falsification pressure, reproducibility and evidence-access reality.**
 
-The project did **not** begin by inventing a new mechanism. It began by asking what evidence would be required to distinguish among competing explanations, then froze that test before access to the desired external trajectories.
+### Public performance signals
 
-The investigation closed when the required charge-resolved raw data could not be obtained at the evidentiary standard specified in the preregistration.
+| Verification signal | Result |
+|---|---:|
+| Competing physical/accounting explanations retained | **3** |
+| Preregistered primary experiment | **1** |
+| Frozen analysis core before real-data access | **YES** |
+| Adversarial synthetic scenarios executed | **3 / 3 PASS** |
+| Analysis core SHA-256 frozen | **YES** |
+| GitHub Actions validation workflow | **INCLUDED** |
+| Endpoint changed after evidence failure | **0 times** |
+| Figure-only data promoted as raw trajectories | **0 times** |
+| Post-hoc simulation substituted for the frozen experiment | **0 times** |
+| Unsupported mechanism claims emitted | **0** |
 
-That stopping decision is part of the result.
+The laboratory preserved a complete stopping condition instead of weakening the scientific question to manufacture a result.
 
-## Research question
+---
 
-**What quantitatively causes the short-lived increase in topological polarization immediately after activity is switched off?**
+## Executive signal
+
+For an executive, founder, investor or R&D leader, the important point is not active liquid crystals.
+
+The important question is:
+
+> **Can a research system lock the test before the desired data arrive, detect when the available evidence is the wrong kind of evidence, and prevent a weak substitute from becoming a confident technical claim?**
+
+CS05 demonstrates that behavior.
+
+This capability transfers to:
+
+- deep-tech due diligence;
+- scientific R&D;
+- model validation;
+- experimental design;
+- AI-assisted technical research;
+- analytics integrity;
+- data-access risk;
+- decision intelligence.
+
+See [Executive Signal](report/EXECUTIVE_SIGNAL.md).
+
+---
+
+## The scientific challenge
+
+A published active-liquid-crystal experiment reported a short-lived increase in topological polarization immediately after acoustic activity was switched off, before ordinary discharge.
+
+The research question was:
+
+> **What quantitatively carries that overshoot?**
 
 Three rival explanations were retained:
 
-| ID | Rival explanation | Final status |
-|---|---|---|
-| H0 | Standard passive post-drive defect relaxation is sufficient | Unresolved |
-| H1 | Stored elastic/director stress produces an additional charge-selective transient current | Hypothesis only / unresolved |
-| H2 | Measurement/accounting effects materially create or amplify the overshoot | Unresolved |
+| Rival | Public status |
+|---|---|
+| Standard passive post-drive defect relaxation | Unresolved |
+| Stored elastic/director relaxation contribution | Hypothesis only / unresolved |
+| Measurement or trajectory-accounting effects | Unresolved |
 
-## Research path
+The first objective was deliberately narrower than “discover a new mechanism”:
 
-```text
-Observed published anomaly
-        ↓
-Prior-art review and claim narrowing
-        ↓
-Three competing hypotheses
-        ↓
-CS05-EXP001 preregistration
-        ↓
-Analysis code frozen before real-data access
-        ↓
-Adversarial synthetic validation
-        ↓
-External trajectory-data dependency
-        ↓
-STOP — evidence access insufficient
-```
+**reconstruct the polarization change from charge-resolved defect trajectories and determine what physical/accounting contribution actually carries the overshoot.**
 
-## The preregistered experiment
+---
 
-The first test was deliberately kinematic rather than mechanistic. The planned charge-resolved accounting was:
+## The preregistered test
+
+The accounting model was frozen as:
 
 ```text
 ΔP = ΔP_motion
@@ -60,131 +88,133 @@ The first test was deliberately kinematic rather than mechanistic. The planned c
    + ε_numeric
 ```
 
-with `+1/2` and `-1/2` contributions reported separately.
+with `+1/2` and `-1/2` defect contributions tracked separately.
 
-The test was designed to answer four questions before any new physical model was introduced:
+The test was designed to ask:
 
-1. Does the overshoot survive direct, unsmoothed reconstruction from tracks?
-2. Which charge class physically carries it?
-3. Can field boundaries or track birth/death account for it?
+1. Does the overshoot survive direct reconstruction from trajectories?
+2. Which charge class carries it?
+3. Can field boundaries or track birth/death explain it?
 4. Does the same carrier reproduce across independent switch-offs?
 
-See [`preregistration/CS05_EXP001_PREREGISTRATION.md`](preregistration/CS05_EXP001_PREREGISTRATION.md).
+See [Preregistration](preregistration/CS05_EXP001_PREREGISTRATION.md).
+
+---
 
 ## What was actually executed
 
-The **real-data** experiment was not executed because the required trajectory-level dataset was not obtained.
+The required external charge-resolved trajectory dataset was not obtained.
 
-The **analysis software** was executed against adversarial synthetic cases before closure:
+So the real-data mechanism test was **not** executed.
 
-- a genuine motion-carried overshoot;
-- a boundary-driven apparent overshoot;
-- an unexplained-track artifact.
+What was executed was the frozen analysis software against three adversarial synthetic scenarios:
 
-All frozen software-validation assertions passed.
+1. genuine motion-carried overshoot;
+2. boundary-driven apparent overshoot;
+3. unresolved-track apparent overshoot.
 
-```text
-ALL_SYNTHETIC_TESTS_PASS
-```
+Result:
 
-This validates the accounting logic only. It is **not physical evidence** for H0, H1, or H2.
+> **3 / 3 adversarial synthetic scenarios passed.**
 
-## Reproducibility
+This validates the accounting logic only. It does not select a real physical mechanism.
 
-The core analysis file in [`src/cs05_exp001_pipeline.py`](src/cs05_exp001_pipeline.py) is byte-identical to the pre-real-data frozen version.
+See [Synthetic Validation Report](results/synthetic_validation_report.md).
 
-Frozen SHA-256:
+---
+
+## Reproducibility and integrity
+
+The primary analysis implementation was frozen before real-data access.
+
+Frozen core SHA-256:
 
 ```text
 1bbd0f67adb3c5f5f71160b4318e6a85411c9056921e3193929ea1e092a3bf0a
 ```
 
-To run the public synthetic validation:
+Public reproduction path:
 
 ```bash
 python -m pip install -r requirements.txt
 python tests/validate_synthetic.py
 ```
 
-PowerShell:
+A GitHub Actions workflow is included to run the validation automatically.
 
-```powershell
-./run_validation.ps1
-```
+See [Reproducibility Report](reproducibility/reproducibility_report.md).
 
-A GitHub Actions workflow is included to execute the same validation on push and pull request.
+---
 
-## Final scientific status
+## Why the stop is a result
+
+When the required trajectory-level evidence could not be obtained, the project did **not**:
+
+- replace raw trajectories with figure-only digitization;
+- move the analysis window;
+- weaken the endpoint;
+- substitute a post-hoc simulation under the same experiment identity;
+- promote one rival simply because another became difficult to test.
+
+That is the commercially important behavior.
+
+> **CIEC LAB preserved the value of the decision by refusing to convert evidence scarcity into technical certainty.**
+
+The case can be reopened if suitable charge-resolved trajectory data become available.
+
+---
+
+## Public evidence, private machinery
+
+This repository exposes:
+
+- the research question;
+- competing hypotheses;
+- preregistration;
+- frozen code;
+- public synthetic validation;
+- hashes;
+- limitations;
+- claim boundaries;
+- reproducibility material;
+- final research status.
+
+CIEC LAB internal operating methods remain proprietary.
+
+> **Public evidence. Private machinery.**
+
+See [Public Disclosure Boundary](PUBLIC_DISCLOSURE_BOUNDARY.md).
+
+---
+
+## Agents involved
+
+FORGE Ω · ALETHEIA Ω · OSINTEGA Ω · INVENTOR · SEDA Ω
+
+No operational details are disclosed.
+
+---
+
+## Scientific status
 
 | Question | Status |
 |---|---|
-| Does the published overshoot exist? | Supported by the source publication |
-| Did this project independently reproduce it from raw tracks? | No |
-| Does passive defect dynamics explain it? | Unresolved |
-| Does stored elastic/director relaxation explain it? | Unresolved |
-| Is it an accounting artifact? | Unresolved |
-| Was a new physical mechanism discovered here? | **No** |
+| Is the published overshoot supported by the source publication? | **Yes** |
+| Was it independently reconstructed here from raw trajectories? | **No** |
+| Was a physical mechanism selected? | **No** |
+| Was the primary test preregistered before real-data access? | **Yes** |
+| Was the analysis core frozen? | **Yes** |
+| Did adversarial synthetic software tests pass? | **Yes — 3/3** |
 | Was a novelty claim made? | **No** |
-| Was the analysis preregistered and frozen before real-data access? | **Yes** |
-| Did adversarial synthetic software tests pass? | **Yes** |
 
-See [`docs/claim_ledger.csv`](docs/claim_ledger.csv) and [`docs/final_status.md`](docs/final_status.md).
+**Final state:** `CLOSED — EXTERNAL DATA ACCESS BLOCK`
 
-## Why the stop matters
+This is an evidence-access conclusion, not a negative physical result.
 
-The project intentionally did **not** replace missing evidence with:
+---
 
-- figure-only digitization presented as equivalent to raw trajectories;
-- post-hoc simulation under the same experiment ID;
-- a shifted analysis window;
-- a weaker endpoint;
-- a newly invented mechanism.
+# CIEC® LAB
 
-The investigation therefore demonstrates an evidence-gated workflow that can stop without manufacturing a discovery.
+### High-reliability AI research for problems where the cost of a false technical claim is higher than the cost of stopping.
 
-## CIEC® LAB research architecture
-
-This case was conducted through the proprietary research architecture of **CIEC® LAB**.
-
-The public repository exposes the evidence needed to audit the case — research question, competing hypotheses, preregistration, analysis code, validation, limitations, claim boundaries, hashes, and final status — while internal prompts, orchestration logic, decision gates, routing rules, handoff formats, thresholds, and governance remain private.
-
-## Repository map
-
-```text
-docs/              research logic, timeline, claims, limitations
-preregistration/   frozen experiment definition and schema
-src/               frozen accounting pipeline
-tests/             public synthetic validation harness
-results/           synthetic validation outputs
-reproducibility/   hashes, runbook, integrity records
-evidence/          source map and public evidence index
-report/            technical report and portfolio case study
-```
-
-## Source publication
-
-The primary published phenomenon is from:
-
-**Sokolov, A., Emersic, T., Nealey, P., de Pablo, J., & Snezhko, A. (2026). _Evidence of topological charge polarization at active-passive interfaces in acoustically powered active liquid crystals_. Physical Review Research, 8, 023060.** DOI: `10.1103/nzfb-3cps`.
-
-This repository does not redistribute the authors' experimental data or supplementary media.
-
-**Independence note:** This is an independent research case study and is not affiliated with, endorsed by, or presented as work of the source-paper authors, Argonne National Laboratory, the University of Chicago, the American Physical Society, or the other institutions cited here.
-
-See [`evidence/external_sources.md`](evidence/external_sources.md).
-
-## AI assistance disclosure
-
-This was a human-directed, AI-assisted research project. AI systems supported literature-oriented research, hypothesis analysis, drafting, and code assistance. The internal research architecture used to organize that work is proprietary and is not disclosed in this repository.
-
-See [`docs/ai_assistance_disclosure.md`](docs/ai_assistance_disclosure.md).
-
-## License
-
-This public repository is **source-visible but not open-source licensed** in this release. Copyright is retained by Ricardo Vera. See [`LICENSE`](LICENSE).
-
-Third-party publications remain under their own licenses.
-
-## Citation
-
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+**Frame. Freeze. Attack. Verify. Decide.**
