@@ -1,58 +1,52 @@
-# CS05 — One-Page Portfolio Summary
+# CS05 — Executive One-Page Summary
 
-**CIEC® LAB — Public Evidence Portfolio**
+**CIEC® LAB Public Evidence Portfolio**
 
-## Investigating a Post-Drive Topological Polarization Overshoot
+## Challenge
 
-**Independent AI-assisted research case in reproducible analysis and evidence-gated decision making.**
+A published active-liquid-crystal experiment reported a brief post-drive increase in topological polarization.
 
-### The challenge
+The problem was not to invent an explanation.
 
-A published active-liquid-crystal experiment reported a brief increase in topological polarization immediately after acoustic activity was switched off, before ordinary discharge.
+The problem was to determine **what evidence would actually distinguish among plausible explanations before claiming a mechanism.**
 
-The task was to determine what evidence would distinguish among ordinary passive defect relaxation, stored elastic/director release, and measurement/accounting effects.
+## Research design
 
-### What I did
+CIEC LAB retained three rival explanations and preregistered a charge-resolved accounting experiment before access to the desired external trajectory data.
 
-- narrowed the broad scientific claim through prior-art review;
-- retained three competing explanations;
-- preregistered a discriminating experiment before real-data access;
-- implemented a charge-resolved Python accounting pipeline;
-- froze the core analysis with SHA-256;
-- validated the logic against adversarial synthetic cases;
-- stopped the investigation when the required external raw trajectories were not obtained.
+A Python pipeline was implemented and frozen with SHA-256.
 
-### Technical core
+## Validation
 
-`ΔP = ΔP_motion + ΔP_boundary + ΔP_birth/death + ΔP_unresolved + ε_numeric`
+The analysis logic was tested against three adversarial synthetic scenarios.
 
-The pipeline reports `+1/2` and `-1/2` defect contributions separately and is designed to distinguish genuine motion-carried changes from boundary and unresolved-track artifacts.
+**Result: 3 / 3 PASS.**
 
-### Outcome
+## Evidence boundary
 
-**Mechanism unresolved. No physical-discovery claim and no novelty claim made.**
+The required external charge-resolved trajectories were not obtained at the preregistered evidentiary standard.
 
-The real-data experiment was not executed because the required external trajectory-level evidence was unavailable at the preregistered standard.
+The project therefore refused to:
+- weaken the endpoint;
+- substitute figure digitization for raw trajectories;
+- replace the frozen test with a post-hoc simulation;
+- promote a mechanism without the required evidence.
 
-### What this demonstrates
+## Final state
 
-- analytical problem framing;
-- Python and reproducible analysis;
-- hypothesis testing and falsification;
-- preregistration and integrity controls;
-- technical research and prior-art review;
-- uncertainty management;
-- evidence-based stopping;
-- AI-assisted research direction without delegating claim authority to AI.
+**CLOSED — EXTERNAL DATA ACCESS BLOCK**
 
-### Public evidence
+No physical mechanism claim and no novelty claim were made.
 
-Repository: `https://github.com/RicardoVera-Lab/cs05-topological-overshoot-case-study`
+## What this demonstrates about CIEC LAB
 
-Release: `v1.0.0`
+- hypothesis competition;
+- preregistration;
+- analysis freeze;
+- reproducible Python analytics;
+- adversarial validation;
+- evidence-type discipline;
+- research stopping;
+- claim-boundary control.
 
-Technical report, code, preregistration, synthetic tests, hashes, claim ledger, and limitations are publicly available.
-
-### Proprietary boundary
-
-This case was executed through the proprietary research architecture of **CIEC® LAB**. Internal prompts, orchestration, routing, thresholds, handoffs, decision gates, and governance are not disclosed.
+> **The laboratory did not fail to find an answer. It successfully identified the exact evidence boundary beyond which an answer would become unjustified.**
