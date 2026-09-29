@@ -187,11 +187,11 @@ See [Public Disclosure Boundary](PUBLIC_DISCLOSURE_BOUNDARY.md).
 
 ---
 
-## Agents involved
+## Research system
 
-FORGE Ω · ALETHEIA Ω · OSINTEGA Ω · INVENTOR · SEDA Ω
+This work was produced inside CIEC LAB's proprietary research architecture.
 
-No operational details are disclosed.
+Internal role names, prompts, orchestration, routing, thresholds, handoff formats and decision machinery are intentionally excluded from the public evidence surface.
 
 ---
 
