@@ -213,6 +213,17 @@ This is an evidence-access conclusion, not a negative physical result.
 
 ---
 
+## From public evidence to a real decision
+
+If your organization has a technical claim, model, R&D hypothesis, vendor assertion or high-consequence decision that should survive adversarial review before commitment, start with one bounded object.
+
+[**CIEC LAB — Decision Audit Sprint →**](https://github.com/RicardoVera-Lab/RicardoVera-Lab/blob/main/DECISION_AUDIT_SPRINT.md)
+
+**Contact:** richardvera084@gmail.com  
+**Suggested subject:** CIEC LAB — Decision Audit
+
+> **Bring the claim before you bet capital, architecture or reputation on it.**
+
 # CIEC® LAB
 
 ### Evidence-calibrated AI-assisted research for problems where the cost of a false technical claim is higher than the cost of stopping.
