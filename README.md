@@ -2,7 +2,7 @@
 
 > **CIEC® LAB CASE STUDY — preregistered mechanism discrimination under external-data constraints.**
 
-## What this case proves about CIEC LAB
+## What this case demonstrates about CIEC LAB
 
 CS05 demonstrates that CIEC LAB can take a published physical anomaly, turn it into competing explanations, define a discriminating experiment **before seeing the desired raw data**, freeze the analysis, validate the software against adversarial synthetic cases, and stop when the evidence requirement cannot be met without changing the rules.
 
@@ -215,6 +215,6 @@ This is an evidence-access conclusion, not a negative physical result.
 
 # CIEC® LAB
 
-### High-reliability AI research for problems where the cost of a false technical claim is higher than the cost of stopping.
+### Evidence-calibrated AI-assisted research for problems where the cost of a false technical claim is higher than the cost of stopping.
 
 **Frame. Freeze. Attack. Verify. Decide.**
